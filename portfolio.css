@@ -1,0 +1,105 @@
+section #main {
+  background-color: #fcfbe6;
+  background-color: rgba(252,251,243,0.75);
+  margin: 2.0em 0 0 2.0em;
+  padding: 1.5em 0 2.0em 1.5em;
+  display: inline-block;
+  border-radius: 2em;
+  box-shadow: 1px 1px 5px #777; /* offset-x | offset-y | blue-radius | color */
+}
+
+section div.panel {
+  float: left;
+  position: relative;
+  width: 450px;
+  margin: 0 0.5em 2.0em 0.5em;
+  padding: 1.0em;
+  background-color: #fff;
+  border: #ccc solid 1px;
+  border-radius: 0.6em;
+}
+
+section div.panel img.cheeseType {
+  width: 100%;
+}
+
+.contentWrapper {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 3.0em;
+}
+
+.left {float: left;}
+.right {float: right}
+
+footer {
+  background-color: #281ccf;
+  height: 25px;
+  font-size: 1.2em;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
+
+footer ul li::before {
+  content: "| ";
+  padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+button {
+  color: #c64322;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 0.75em 0 0;
+  padding: 0.2em 0.5em;
+  border: 1px solid #c64322;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #fbf3db;
+  border: 1px solid #745b2f;
+}
+
+div.clear {
+  clear: both;
+  font-size: 1%;
+}
+
+div.Scroll-1{
+  position: fixed;
+  top: 40%;
+  left: -800px;
+  white-space: nowrap;
+}
+
+div.Scroll-2{
+  position: fixed;
+  top: 45%;
+  right: -800px;
+  white-space: nowrap;
+}
+
